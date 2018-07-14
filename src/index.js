@@ -1,8 +1,10 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App.js";
+import MainAdmin from "./MainAdmin";
+import { initialProps } from "../stories/stub"
+
 ReactDOM.render(
-  <App />,
+  <MainAdmin initialProps={...initialProps}/>,
   document.getElementById("root")
 );
